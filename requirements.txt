@@ -1,0 +1,4 @@
+--extra-index-url https://naja1-FYnU5eJPQah7FAQxNEuXjp8ehtc:@pypi.fury.io/cased/
+
+django>=0.10.0
+cased==0.3.2

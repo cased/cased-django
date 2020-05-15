@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+filename=`python3 setup.py sdist | tee | tail -1 | cut -d" " -f2 | sed "s/'//g"`
+fury push dist/$filename.tar.gz --as=cased
